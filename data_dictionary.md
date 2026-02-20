@@ -1,5 +1,3 @@
-# Data Dictionary: options_data.csv
-
 ## Overview
 
 This dataset contains equity and index options data. After cleaning, the dataset has **11,038 observations** and **7 variables**.
@@ -20,14 +18,3 @@ This dataset contains equity and index options data. After cleaning, the dataset
 | type | string | Option type | Call |
 | underlying_price | float | Current price of the underlying asset in USD | 263.878 |
 
-## Cleaning Steps
-
-1. Trimmed dataset to first 7 columns
-2. Dropped rows with missing values (14,802 to 11,038 rows)
-3. Renamed columns for clarity (e.g., `equity` to `symbol`, `volatil` to `iv`)
-
-## Notes
-
-- All observations in the current dataset are calls; no puts are included
-- Implied volatility values for deep in-the-money options appear unusually high (e.g., 4821 for AAPL), which may warrant further investigation
-- Expiry is stored as a string, not a datetime object
