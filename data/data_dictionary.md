@@ -17,4 +17,5 @@ This dataset contains equity and index options data. After cleaning, the dataset
 | expiry | object | Expiration date of the option contract (MM/DD/YYYY) | 2/20/2026 |
 | type | object | Option type: either a call or put | Call |
 | underlying_price | float | Current price of the asset in USD | 263.87 |
+| moneyyyyy | object | out of the money or in the money | OTM |
 
