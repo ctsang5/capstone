@@ -1,10 +1,10 @@
 ## Overview
 
-This dataset contains equity and index options data. After cleaning, the dataset has **11,038 observations** and **7 variables**.
+This dataset contains equity and index options data. After cleaning, the dataset has **11,038 observations** and **8 variables**.
 
 **Source:** Bloomberg Terminal from the University of San Francisco
 
-**Date range:** 2/20/2026 - 8/21/2026
+**Date range:** 2/20/2026 - 12/15/2028
 
 ## Variables
 
