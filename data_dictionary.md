@@ -10,11 +10,11 @@ This dataset contains equity and index options data. After cleaning, the dataset
 
 | Variable | Type | Description | Example |
 |---|---|---|---|
-| symbol | string | Option contract identifier including ticker, expiry, strike, and type | AAPL US 02/20/26 C100 Equity |
+| symbol | object | Option contract identifier including ticker, expiry, strike, and type | AAPL US 02/20/26 C100 Equity |
 | strike | float | Strike price of the option contract in USD | 100.0 |
-| iv | float | Implied volatility of the option, expressed as a percentage | 48.21 |
+| iv | float | Implied volatility of the option expressed as a percentage | 48.21 |
 | last_price | float | Last traded price of the option in USD | 164.07 |
-| expiry | string | Expiration date of the option contract (M/D/YYYY) | 2/20/2026 |
-| type | string | Option type | Call |
-| underlying_price | float | Current price of the underlying asset in USD | 263.878 |
+| expiry | object | Expiration date of the option contract (MM/DD/YYYY) | 2/20/2026 |
+| type | object | Option type: either a call or put | Call |
+| underlying_price | float | Current price of the asset in USD | 263.87 |
 
